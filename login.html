@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+body{
+    background:#0f172a;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+.input{
+    background:#1e293b;
+    padding:40px;
+    border-radius:15px;
+    width:400px;
+}
+</style>
+</head>
+<body>
+    
+<div class="input">
+<h2>로그인을 하세요.</h2>
+
+<p>아래 빈칸에 아이디와 비밀번호를 입력하세요!</p>
+
+<form action="/action_page.php" target="_blank" method="get">
+  <label for="fname">아이디:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">비밀번호:</label><br>
+ <input type="password" id="password" name="password"><br><br>
+  <input type="submit" value="완료">
+</form>
+
+<p>*만약 로그인이 되지 않는다면 회원가입을 하셨는지 확인해보세요!</p>
+<a href="main.html">← 메인으로 돌아가기</a>
+<nav>
+</div>
+</nav>
+
+
+</body>
+</html>
